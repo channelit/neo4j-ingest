@@ -1,0 +1,8 @@
+data
+.gradle
+.gradletasknamecache
+/build/
+.idea
+/gradle/
+gradlew
+gradlew.bat

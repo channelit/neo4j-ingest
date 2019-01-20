@@ -1,0 +1,12 @@
+solr:
+  host:
+    url: http:/localhost:8983/solr
+  cloud:
+    solrUrls: http://localhost:8983/solr
+    zkHosts: localhost:9983
+
+server:
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/cs
+    min-response-size: 100
